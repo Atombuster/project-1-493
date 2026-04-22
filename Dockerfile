@@ -16,7 +16,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm installpa
+RUN npm install
 
 # Copy application code
 COPY . .
